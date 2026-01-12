@@ -1,0 +1,16 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Ignore virtual environments
+.venv/
+antigravity_env/
+Lib/
+Scripts/
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore environment variables/secrets (Safety First!)
+.env
+
+.streamlit/
